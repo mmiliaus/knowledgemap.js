@@ -1,9 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title></title>
-
   <style type="text/css">
     html,body {
       height: 100%;
@@ -29,23 +26,6 @@
   <script type="text/javascript" src="./js/markerwithlabel.js"></script>
 
   <script type="text/javascript">
-
-
-    function adjustMapHeight(){
-      if ( $("#map-canvas").length != 0 ) {
-        var h = $(window).height(),
-        offsetTop = $("#map-canvas").offset().top; // Calculate the top offset
-        $('#map-canvas').css('height', (h - offsetTop));
-      }
-    }
-
-
-
-    $(window).resize(function () {
-      adjustMapHeight();
-    }).resize();
-
-
 
 
     $(function(){
@@ -76,9 +56,15 @@
       }
 
       var nodesTree = { 'nodes' : nodes }
+      // initialize KnowledgeMap with 
+      // * id of the element where to render the map,
+      // * nodes information
+      // * callback function trigerred when users clicks on the node
       var km = new KnowledgeMap( 'map-canvas', nodesTree, function(nodeId){
         alert( "'" + nodes[ nodeId].label + "' has been clicked" );
       });
+
+      // render the KnowledgeMap
       km.render();
 
     });

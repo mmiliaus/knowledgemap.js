@@ -6,6 +6,7 @@ Idea is to have more usable visualization of data with parent-child relationship
 # How to use
 
 
+
 # Preview
 ![knowledgemap.js in action](http://oi46.tinypic.com/28vbyb6.jpg)
 
