@@ -1,13 +1,13 @@
 # About
-Inspired by [Constellation Knowledge](http://bjk5.com/post/1664635835/constellation-knowledge).
+Inspired by the [Constellation Knowledge](http://bjk5.com/post/1664635835/constellation-knowledge).
 
-Idea is to have more usable visualization of data with parent-child relationships.
+The goal is to have a more usable visualization of data with parent-child relationships.
 
 # How to use
-Library is pretty straight forward. Following [example](https://github.com/mmiliaus/knowledgemap.js/blob/master/example.html) can be used to see how to use it.
+The library is pretty straight forward. The following [example](https://github.com/mmiliaus/knowledgemap.js/blob/master/example.html) as a reference on how to use this lib.
 
 # Preview
 ![knowledgemap.js in action](http://oi46.tinypic.com/28vbyb6.jpg)
 
 # Todo
-* Make **Knowledge Map** responsive to zooming
+* Make the **Knowledge Map** responsive to zooming
